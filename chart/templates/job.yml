@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: printer
-          image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.2
+          image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.1
       imagePullSecrets:
         - name: th2-core
         - name: th2-solution
