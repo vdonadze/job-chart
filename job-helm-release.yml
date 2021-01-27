@@ -8,8 +8,3 @@ spec:
     git: https://github.com/vdonadze/job-chart
     path: chart
     ref: main
-    skipDepUpdate: true
-  forceUpgrade: false
-  releaseName: playground-job
-  resetValues: true
-  wait: false
