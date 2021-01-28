@@ -11,5 +11,5 @@ spec:
   values:
     annotations: playground/job
     component:
-      image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.1
+      image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.2
       name: printer
