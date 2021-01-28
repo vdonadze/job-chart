@@ -8,3 +8,8 @@ spec:
     git: https://github.com/vdonadze/job-chart
     path: chart
     ref: main
+  values:
+    annotations: playground/job
+    component:
+      image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.1
+      name: printer
