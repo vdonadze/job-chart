@@ -9,8 +9,8 @@ spec:
       name: test-job
     spec:
       containers:
-        - name: {{ .component.name }}
-          image: {{ .component.image }}
+        - name: {{ .Values.component.name }}
+          image: {{ .Values.component.image }}
       imagePullSecrets:
         - name: th2-core
         - name: th2-solution
