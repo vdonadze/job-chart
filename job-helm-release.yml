@@ -9,7 +9,6 @@ spec:
     path: chart
     ref: main
   values:
-    annotations: playground/job
-    component:
-      image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.2
-      name: printer
+    annotations: playground/job-2
+    image: nexus.exactpro.com:16000/giorgi.mania/env-printer:1.0.1
+    name: printer
